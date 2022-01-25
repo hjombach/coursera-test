@@ -2,9 +2,96 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Hello Coursera</title>
+    <style media="screen">
+      p, h1 {
+        color: green;
+        text-align: center;
+
+      }
+      div{
+        color: blue;
+        font-size: 24px;
+        margin-left: 25px;
+      }
+      span{
+        background-color: red;
+        opacity: .4
+      }
+
+    </style>
+    <title>Titles show in Tabs</title>
   </head>
   <body>
-    <h1>Hello Coursera!</h1>
+    <header> Headers often contain navigation. Company logos, etc.</header>
+    <h1>Hello Coursera! I like pie.</h1>
+
+    <div class="">
+      ***DIV 1: SOME CONTENT HERE
+    </div>
+    <div class="">
+      ***DIV 2: SOME CONTENT HERE - New Divs always start on a new line.
+    </div>
+    <div class="">
+      ***DIV 3: New <em>div</em> automatically starts at new line.
+      <span> New <em>span </em> continues on the same line as the div it falls <em>within</em> </span>
+    </div>
+    <p>
+      <nav>
+        nav is short for navigation - usually contains links to different parts of the website.
+      </nav>
+      <br>
+      Heading Numbers hould only be used to identify the structure of the content. CSS should be used to actually manipulate what the headings look like (big, small, etc.)
+    </p>
+    <h1>Subheading 1</h1>
+    <h2>Subheading 2</h2>
+    <h3>Subheading 3</h3>
+    <h4>Subheading 4</h4>
+    <h5>Subheading 5</h5>
+    <hr>
+    <section>
+      Here is a new section. The horizontal line was manually added.<br>
+      <h2>Unordered Lists</h2>
+      <div class="">
+        Shopping List:
+        <ul>
+          <li>Milk</li>
+          <li>Donuts</li>
+          <li>Cookies
+            <ul>
+              <li>Chocolate</li>
+              <li>Flour</li>
+              <li>Oatmeal</li>
+            </ul>
+          </li>
+          <li>Listerine</li>
+        </ul>
+      </div>
+      <div class="">
+        <h2>Ordered List</h2>
+        Shopping List:
+        <ol>
+          <li>Milk</li>
+          <li>Donuts</li>
+          <li>Cookies
+            <ol>
+              <li>Chocolate</li>
+              <li>Flour</li>
+              <li>Oatmeal</li>
+            </ol>
+          </li>
+          <li>Listerine</li>
+        </ol>
+      </div>
+    </section>
+    <section>
+      <a href="https://www.nba.com" title='check out the nba' target='_blank'>NBA.com</a>
+      <p>Adding target='_blank' to an 'a' tag will cause the new page to pop open in a new tab.
+      <br>
+      To write the less than symbol use the html code &lt; (and symbol l t followed by semicolon)</p>
+    </section>
+    <section>
+      <img src="https://apod.nasa.gov/apod/image/2201/TethysRingShadow_cassini_1080.jpg" width = "250">
+    </section>
+    <footer>Footer tags go within the body. Just like the header tags </footer>
   </body>
 </html>
